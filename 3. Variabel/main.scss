@@ -1,0 +1,38 @@
+// CSS Variabel
+// :root {  variabel css wajib didalam :root
+//     --primary-color: #f4f1de;
+//     --text-color: #e07a5f;
+// }
+
+// body {
+//     background-color: var(--primary-color);
+// }
+
+// h1 {
+//     color: var(--text-color);
+// }
+
+//SASS Variabel
+$text-color: #e07a5f; // variabel global
+
+body {
+    $primary-color: #f4f1de; // variabel lokal
+    $secondary-color: #e07a5f !global; // Memaksa variabel lokal menjadi global
+    background-color: $primary-color;
+}
+
+h1 {
+    color: $text-color;
+}
+
+//Map
+$alert: ( //Menyimpan lebih dari 1 variabel
+    "danger": red,
+    "succes": green,
+    "warning":orange,
+);
+
+p {
+    color: map-get($alert, "succes"); //Pemanggilan Map
+}
+
