@@ -1,0 +1,23 @@
+.main { 
+   .container & { //& bisa untuk menyeleksi parent dari child
+        background-color: lightblue;
+   }
+
+    & &-headling { //& digunakan untuk mempersingkat class
+        font-size: 2em;
+    }
+
+    .main-paragraph {
+        font-size: 1.4em;
+    }
+
+    &:hover {
+        background-color: salmon; //& bisa digunakan untuk sudoclass
+    }
+}
+
+.main, footer {
+    h1, p {
+        letter-spacing: 1px;
+    }
+}
