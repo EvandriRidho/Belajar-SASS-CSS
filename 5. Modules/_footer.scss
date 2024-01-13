@@ -1,0 +1,8 @@
+.footer ul {
+    @include inline-list(); // memanggil mixin tanpa argument
+    background-color: salmon;
+    a {
+        color: white;
+        text-decoration: none;
+    }
+}

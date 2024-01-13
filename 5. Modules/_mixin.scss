@@ -1,0 +1,15 @@
+@mixin inline-list {
+    padding: 0;
+    margin: 0;
+    list-style: none; // untuk mengilangkan bola hitam
+    li {
+        display: inline-block; // agar tampilann menjadi kekanan
+    }
+}
+
+@mixin flex-box($direction, $justify) {
+    display: flex;
+    align-items: center;
+    justify-content: $justify;
+    flex-direction: $direction;
+}

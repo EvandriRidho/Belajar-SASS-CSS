@@ -1,0 +1,44 @@
+.header ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  background-color: black;
+}
+.header ul li {
+  display: inline-block;
+}
+.header ul a {
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 600px;
+  height: 400px;
+  background-color: #eaeaea;
+}
+.container .box {
+  width: 60px;
+  height: 60px;
+  background-color: #bada55;
+  text-align: center;
+  line-height: 60px;
+}
+
+.footer ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  background-color: salmon;
+}
+.footer ul li {
+  display: inline-block;
+}
+.footer ul a {
+  color: white;
+  text-decoration: none;
+}/*# sourceMappingURL=main.css.map */
