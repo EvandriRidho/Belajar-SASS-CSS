@@ -1,0 +1,50 @@
+//Mixin
+// Simpel Mixin
+@mixin inline-list {
+    padding: 0;
+    margin: 0;
+    list-style: none; // untuk mengilangkan bola hitam
+    li {
+        display: inline-block; // agar tampilann menjadi kekanan
+    }
+}
+
+.header ul {
+    @include inline-list();
+    background-color: black;
+    a {
+        color: white;
+        text-decoration: none; // untuk menghilangkan underline
+    }
+}
+
+.footer ul {
+    @include inline-list(); // memanggil mixin tanpa argument
+    background-color: salmon;
+    a {
+        color: white;
+        text-decoration: none;
+    }
+}
+
+// Argument pada mixin
+@mixin flex-box($direction, $justify) {
+    display: flex;
+    align-items: center;
+    justify-content: $justify;
+    flex-direction: $direction;
+}
+.container {
+    @include flex-box(row, space-around); // memanggil mixin dengan argument
+    width: 600px;
+    height: 400px;
+    background-color: #eaeaea;
+    .box {
+        width: 60px;
+        height: 60px;
+        background-color: #bada55;
+        text-align: center;
+        line-height: 60px; //mengatur tinggi baris dalam elemen 
+        
+    }
+}
