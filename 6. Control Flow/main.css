@@ -1,0 +1,100 @@
+.circle-profile {
+  width: 80px;
+  height: 80px;
+  border: 5px solid white;
+  border-radius: 50%;
+}
+
+.square-profile {
+  width: 200px;
+  height: 200px;
+  border: 5px solid white;
+}
+
+body {
+  background-color: #999;
+  color: #ddd;
+}
+
+.right {
+  height: 0;
+  width: 0;
+  background-color: transparent;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 1em;
+  border-left-color: lightblue;
+}
+
+.lighten {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.lighten li:nth-child(1) {
+  padding: 4px;
+  background-color: #fa897c;
+}
+.lighten li:nth-child(2) {
+  padding: 4px;
+  background-color: #fb9286;
+}
+.lighten li:nth-child(3) {
+  padding: 4px;
+  background-color: #fb9b90;
+}
+.lighten li:nth-child(4) {
+  padding: 4px;
+  background-color: #fba399;
+}
+.lighten li:nth-child(5) {
+  padding: 4px;
+  background-color: #fcaca3;
+}
+
+.darken {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.darken li:nth-child(1) {
+  padding: 4px;
+  background-color: #fa7768;
+}
+.darken li:nth-child(2) {
+  padding: 4px;
+  background-color: #f96e5e;
+}
+.darken li:nth-child(3) {
+  padding: 4px;
+  background-color: #f96554;
+}
+.darken li:nth-child(4) {
+  padding: 4px;
+  background-color: #f95d4b;
+}
+.darken li:nth-child(5) {
+  padding: 4px;
+  background-color: #f85441;
+}
+
+.social {
+  font-size: 2em;
+  font-family: Arial;
+  font-weight: bold;
+}
+.social .youtube {
+  color: #ff0000;
+}
+.social .facebook {
+  color: #3b5998;
+}
+.social .twitter {
+  color: #1da1f2;
+}
+.social .instgram {
+  color: #ffbf34;
+}
+.social .twitch {
+  color: #8134af;
+}/*# sourceMappingURL=main.css.map */
